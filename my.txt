@@ -1,0 +1,46 @@
+<init> ()V
+  ========== TUPLES ==========
+
+  B0
+  
+  B1
+  0: aload_0  
+  1: invokespecial   0   8  
+  4: return  
+  
+  ========== HIR ==========
+
+  B0 succ: B1 
+  Locals: 
+  
+  B1 [0, 4] dom: B0 pred: B0 
+  Locals: 
+  V1: invokespecial java/lang/Object.<init>( )
+  2: return
+  
+  ========== LIR ==========
+
+  B0
+  
+  B1
+  0: INVOKESPECIAL java/lang/Object.<init>( )
+  5: RETURN
+  
+5: RETURN
+0: INVOKESPECIAL java/lang/Object.<init>( )
+[false, false, false, false, false, false, false]
+[false, false, false, false, false, false, false]
+[false, false, false, false, false, false, false]
+[false, false, false, false, false, false, false]
+[false, false, false, false, false, false, false]
+[false, false, false, false, false, false, false]
+[false, false, false, false, false, false, false]
+building adjacency list 
+
+
+
+
+
+
+
+size is 0
